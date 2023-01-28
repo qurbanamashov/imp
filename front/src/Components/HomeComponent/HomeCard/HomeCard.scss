@@ -1,0 +1,110 @@
+.HomeCard {
+    width: 100%;
+    background-color: #fff;
+    h2{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .HomeCard_WIDTH {
+        max-width: 1400px;
+        margin: 0 auto;
+        .HomeCard_text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center ;
+            margin-bottom: 60px;
+
+            ul {
+                display: flex;
+                width: 600px;
+                justify-content: space-between;
+
+                li {
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+            .HomeCard_buttons{
+                width: 700px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                button {
+                    width: 180px;
+                    height: 40px;
+                    background-color: #e6e6e6;
+                    border: 0 solid;
+                    border-radius: 13px;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                input{
+                    width: 200px;
+                    height: 40px;
+                    background-color: #e6e6e6;
+                    border: 0 solid;
+                    padding-left: 30px;
+                    border-radius: 13px;
+                }
+            }
+            
+        }
+        .homecard_total {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+
+            .card {
+                width: 300px;
+                height: 450px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                margin-bottom: 50px;
+
+                .card_img_box {
+
+                    width: 300px;
+                    height: 374px;
+                    overflow: hidden;
+
+                    a {
+                        list-style: none;
+                        text-decoration: none;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+
+                            &:hover {
+                                transform: scale(1.1);
+                                transition: 0.5s;
+                            }
+                        }
+                    }
+                }
+
+                .cardname {
+                    font-size: 14px;
+                }
+
+                .cardprice {
+                    font-size: 14px;
+                    font-weight: 600;
+
+                }
+                button {
+                    width: 200px;
+                    height: 50px;
+                    background-color: #e6e6e6;
+                    border: 0 solid;
+                    border-radius: 13px;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+    }
+}
